@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+body{
+
+height: 100%;
+width: 100%;
+
+}
+#main{
+ min-height: 100vh;
+display: flex;
+flex-direction: column;
+flex: 1 0 auto; 
+}
+#buttons{
+    border: 1px solid black;
+    align-items:center;
+    justify-content: center;
+}
+ #statement{
+    min-height: 2.5rem;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-content: center;
+}
+#output{
+    min-height: 3rem;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-content: center;
+}
+
